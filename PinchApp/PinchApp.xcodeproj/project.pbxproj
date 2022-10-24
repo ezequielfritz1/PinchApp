@@ -11,6 +11,23 @@
 		284307A82901438D002EE836 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 284307A72901438D002EE836 /* ContentView.swift */; };
 		284307AA2901438E002EE836 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284307A92901438E002EE836 /* Assets.xcassets */; };
 		284307AD2901438E002EE836 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 284307AC2901438E002EE836 /* Preview Assets.xcassets */; };
+		28602D4C29069BDB00420543 /* PageModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28602D4B29069BDA00420543 /* PageModel.swift */; };
+		28602D562906A16400420543 /* GetPagesUseCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28602D552906A16400420543 /* GetPagesUseCase.swift */; };
+		28602D582906A17B00420543 /* GetPagesUseCaseImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28602D572906A17B00420543 /* GetPagesUseCaseImpl.swift */; };
+		28602D5C2906A1B000420543 /* PagesDomainMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28602D5B2906A1B000420543 /* PagesDomainMapper.swift */; };
+		28602D5E2906A1BB00420543 /* PagesDomainMapperImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28602D5D2906A1BB00420543 /* PagesDomainMapperImpl.swift */; };
+		28602D622906A26B00420543 /* PagesConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28602D612906A26B00420543 /* PagesConfigurator.swift */; };
+		28602D642906A28800420543 /* PagesViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28602D632906A28800420543 /* PagesViewModel.swift */; };
+		28602D672906A2FB00420543 /* UiPages.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28602D662906A2FB00420543 /* UiPages.swift */; };
+		28602D6A2906A36000420543 /* PageDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28602D692906A36000420543 /* PageDTO.swift */; };
+		28602D6C2906A37A00420543 /* PageService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28602D6B2906A37A00420543 /* PageService.swift */; };
+		28602D6E2906A39B00420543 /* PageServiceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28602D6D2906A39B00420543 /* PageServiceImpl.swift */; };
+		28602D732906A3CF00420543 /* PagesLocalDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28602D722906A3CF00420543 /* PagesLocalDataSource.swift */; };
+		28602D752906A3DD00420543 /* PagesLocalDataSourceImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28602D742906A3DD00420543 /* PagesLocalDataSourceImpl.swift */; };
+		28602D792906A46800420543 /* PagesMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28602D782906A46800420543 /* PagesMapper.swift */; };
+		28602D7B2906A48200420543 /* PagesMapperImpl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 28602D7A2906A48200420543 /* PagesMapperImpl.swift */; };
+		2880B77D29028B3D00020DE6 /* InfoPanelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2880B77C29028B3D00020DE6 /* InfoPanelView.swift */; };
+		2880B77F290290EE00020DE6 /* ControlImageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2880B77E290290EE00020DE6 /* ControlImageView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +36,23 @@
 		284307A72901438D002EE836 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		284307A92901438E002EE836 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		284307AC2901438E002EE836 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		28602D4B29069BDA00420543 /* PageModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageModel.swift; sourceTree = "<group>"; };
+		28602D552906A16400420543 /* GetPagesUseCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPagesUseCase.swift; sourceTree = "<group>"; };
+		28602D572906A17B00420543 /* GetPagesUseCaseImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetPagesUseCaseImpl.swift; sourceTree = "<group>"; };
+		28602D5B2906A1B000420543 /* PagesDomainMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesDomainMapper.swift; sourceTree = "<group>"; };
+		28602D5D2906A1BB00420543 /* PagesDomainMapperImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesDomainMapperImpl.swift; sourceTree = "<group>"; };
+		28602D612906A26B00420543 /* PagesConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesConfigurator.swift; sourceTree = "<group>"; };
+		28602D632906A28800420543 /* PagesViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesViewModel.swift; sourceTree = "<group>"; };
+		28602D662906A2FB00420543 /* UiPages.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UiPages.swift; sourceTree = "<group>"; };
+		28602D692906A36000420543 /* PageDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageDTO.swift; sourceTree = "<group>"; };
+		28602D6B2906A37A00420543 /* PageService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageService.swift; sourceTree = "<group>"; };
+		28602D6D2906A39B00420543 /* PageServiceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PageServiceImpl.swift; sourceTree = "<group>"; };
+		28602D722906A3CF00420543 /* PagesLocalDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesLocalDataSource.swift; sourceTree = "<group>"; };
+		28602D742906A3DD00420543 /* PagesLocalDataSourceImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesLocalDataSourceImpl.swift; sourceTree = "<group>"; };
+		28602D782906A46800420543 /* PagesMapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesMapper.swift; sourceTree = "<group>"; };
+		28602D7A2906A48200420543 /* PagesMapperImpl.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PagesMapperImpl.swift; sourceTree = "<group>"; };
+		2880B77C29028B3D00020DE6 /* InfoPanelView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InfoPanelView.swift; sourceTree = "<group>"; };
+		2880B77E290290EE00020DE6 /* ControlImageView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControlImageView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,11 +85,12 @@
 		284307A42901438D002EE836 /* PinchApp */ = {
 			isa = PBXGroup;
 			children = (
+				28602D6F2906A3BE00420543 /* Core */,
+				28602D522906A12F00420543 /* App */,
+				28602D502906A12000420543 /* Presentation */,
+				28602D4F2906A11700420543 /* Domain */,
 				284307B629014519002EE836 /* Data */,
 				284307B529014510002EE836 /* Model */,
-				284307B4290144F9002EE836 /* View */,
-				284307A52901438D002EE836 /* PinchAppApp.swift */,
-				284307B3290144EA002EE836 /* Screen */,
 				284307A92901438E002EE836 /* Assets.xcassets */,
 				284307AB2901438E002EE836 /* Preview Content */,
 			);
@@ -70,24 +105,28 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
-		284307B3290144EA002EE836 /* Screen */ = {
+		284307B3290144EA002EE836 /* View */ = {
 			isa = PBXGroup;
 			children = (
 				284307A72901438D002EE836 /* ContentView.swift */,
-			);
-			path = Screen;
-			sourceTree = "<group>";
-		};
-		284307B4290144F9002EE836 /* View */ = {
-			isa = PBXGroup;
-			children = (
+				284307B4290144F9002EE836 /* Screen */,
 			);
 			path = View;
+			sourceTree = "<group>";
+		};
+		284307B4290144F9002EE836 /* Screen */ = {
+			isa = PBXGroup;
+			children = (
+				2880B77C29028B3D00020DE6 /* InfoPanelView.swift */,
+				2880B77E290290EE00020DE6 /* ControlImageView.swift */,
+			);
+			path = Screen;
 			sourceTree = "<group>";
 		};
 		284307B529014510002EE836 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				28602D4B29069BDA00420543 /* PageModel.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -95,8 +134,156 @@
 		284307B629014519002EE836 /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				28602D762906A45500420543 /* Pages */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		28602D4F2906A11700420543 /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				28602D5A2906A19500420543 /* Pages */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		28602D502906A12000420543 /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				28602D512906A12800420543 /* Pages */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		28602D512906A12800420543 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				28602D652906A2F600420543 /* Entity */,
+				28602D602906A21E00420543 /* ViewModel */,
+				28602D5F2906A20B00420543 /* Configurator */,
+				284307B3290144EA002EE836 /* View */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		28602D522906A12F00420543 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				284307A52901438D002EE836 /* PinchAppApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		28602D532906A15100420543 /* Service */ = {
+			isa = PBXGroup;
+			children = (
+				28602D6B2906A37A00420543 /* PageService.swift */,
+				28602D6D2906A39B00420543 /* PageServiceImpl.swift */,
+			);
+			path = Service;
+			sourceTree = "<group>";
+		};
+		28602D542906A15B00420543 /* UseCase */ = {
+			isa = PBXGroup;
+			children = (
+				28602D552906A16400420543 /* GetPagesUseCase.swift */,
+				28602D572906A17B00420543 /* GetPagesUseCaseImpl.swift */,
+			);
+			path = UseCase;
+			sourceTree = "<group>";
+		};
+		28602D592906A18F00420543 /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				28602D5B2906A1B000420543 /* PagesDomainMapper.swift */,
+				28602D5D2906A1BB00420543 /* PagesDomainMapperImpl.swift */,
+			);
+			path = Mapper;
+			sourceTree = "<group>";
+		};
+		28602D5A2906A19500420543 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				28602D592906A18F00420543 /* Mapper */,
+				28602D542906A15B00420543 /* UseCase */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		28602D5F2906A20B00420543 /* Configurator */ = {
+			isa = PBXGroup;
+			children = (
+				28602D612906A26B00420543 /* PagesConfigurator.swift */,
+			);
+			path = Configurator;
+			sourceTree = "<group>";
+		};
+		28602D602906A21E00420543 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				28602D632906A28800420543 /* PagesViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		28602D652906A2F600420543 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				28602D662906A2FB00420543 /* UiPages.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		28602D682906A35300420543 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				28602D692906A36000420543 /* PageDTO.swift */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		28602D6F2906A3BE00420543 /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				28602D712906A3C600420543 /* Networking */,
+				28602D702906A3C200420543 /* Local */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		28602D702906A3C200420543 /* Local */ = {
+			isa = PBXGroup;
+			children = (
+				28602D722906A3CF00420543 /* PagesLocalDataSource.swift */,
+				28602D742906A3DD00420543 /* PagesLocalDataSourceImpl.swift */,
+			);
+			path = Local;
+			sourceTree = "<group>";
+		};
+		28602D712906A3C600420543 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		28602D762906A45500420543 /* Pages */ = {
+			isa = PBXGroup;
+			children = (
+				28602D772906A46200420543 /* Mapper */,
+				28602D682906A35300420543 /* Entity */,
+				28602D532906A15100420543 /* Service */,
+			);
+			path = Pages;
+			sourceTree = "<group>";
+		};
+		28602D772906A46200420543 /* Mapper */ = {
+			isa = PBXGroup;
+			children = (
+				28602D782906A46800420543 /* PagesMapper.swift */,
+				28602D7A2906A48200420543 /* PagesMapperImpl.swift */,
+			);
+			path = Mapper;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -169,8 +356,25 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28602D6E2906A39B00420543 /* PageServiceImpl.swift in Sources */,
+				2880B77F290290EE00020DE6 /* ControlImageView.swift in Sources */,
+				28602D732906A3CF00420543 /* PagesLocalDataSource.swift in Sources */,
+				28602D562906A16400420543 /* GetPagesUseCase.swift in Sources */,
+				28602D672906A2FB00420543 /* UiPages.swift in Sources */,
+				28602D4C29069BDB00420543 /* PageModel.swift in Sources */,
+				28602D7B2906A48200420543 /* PagesMapperImpl.swift in Sources */,
+				28602D642906A28800420543 /* PagesViewModel.swift in Sources */,
+				28602D622906A26B00420543 /* PagesConfigurator.swift in Sources */,
 				284307A82901438D002EE836 /* ContentView.swift in Sources */,
 				284307A62901438D002EE836 /* PinchAppApp.swift in Sources */,
+				2880B77D29028B3D00020DE6 /* InfoPanelView.swift in Sources */,
+				28602D5E2906A1BB00420543 /* PagesDomainMapperImpl.swift in Sources */,
+				28602D582906A17B00420543 /* GetPagesUseCaseImpl.swift in Sources */,
+				28602D6A2906A36000420543 /* PageDTO.swift in Sources */,
+				28602D5C2906A1B000420543 /* PagesDomainMapper.swift in Sources */,
+				28602D6C2906A37A00420543 /* PageService.swift in Sources */,
+				28602D752906A3DD00420543 /* PagesLocalDataSourceImpl.swift in Sources */,
+				28602D792906A46800420543 /* PagesMapper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

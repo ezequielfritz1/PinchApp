@@ -11,7 +11,7 @@ import SwiftUI
 struct PinchAppApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            PagesConfigurator.configPagesView()
         }
     }
 }
